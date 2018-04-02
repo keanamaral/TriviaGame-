@@ -1,0 +1,101 @@
+/*Style Sheet for Basic Trivia Game*/
+body {
+  background: url(..//Images/discothemedParty.jpg);
+  }
+#headerTitle{
+  box-sizing: border-box;
+  background:lightgreen;
+  color: blue;
+  border: 5px solid rgb(133, 20, 39);
+  margin-top: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+  height:125px;
+  font-size: 100px;
+  vertical-align: middle;
+  line-height: normal;
+  text-align: center;
+}
+.wrapperPageContent{
+    box-sizing: border-box;
+    background:lightblue;
+    border: 5px solid rgb(133, 20, 39);
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+#timerDiv{
+    box-sizing: border-box;
+    background:lightgreen;
+    color: blue;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height:60px;
+    border: 2px solid rgb(133, 20, 39);
+    font-size: 40px;
+    vertical-align: middle;
+    line-height: normal;
+    text-align: center;
+}
+#triviaQuestions{
+    box-sizing: border-box;
+    background:lightgreen;
+    color: blue;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#questionDiv{
+    margin-top: 25px;
+    margin-left: 15px;
+    font-size: 35px;
+    line-height: 2.5;
+}
+#scoreDiv{
+    box-sizing: border-box;
+    background:lightgreen;
+    color: blue;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 50px;
+}
+label{
+    margin-left: 5px;
+    background: lightgray;
+}
+.Choice{
+    margin-left: 25px;
+}
+.startButton{
+    height: 200px;
+    width: 300px;
+    margin-top: 80px;
+    margin-bottom: 150px;
+    margin-left: 600px;
+    font-size: 50px;
+    color: blue;
+}
+#restartBtn{
+    height: 200px;
+    width: 300px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    margin-left: 600px;
+    font-size: 50px;
+    color: blue;
+}
+footer{
+    background: #666666;
+    color: cornsilk;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    border-top: 5px solid rgb(133, 20, 39);
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    bottom: 0;
+}
